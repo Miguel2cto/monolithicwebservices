@@ -10,7 +10,7 @@ spring:
       #path: /h2-console
   datasource:
     #driver-class-name: org.h2.Driver
-    url: jdbc:postgresql://containers-us-west-33.railway.app:8004/railway?ssl=true&sslmode=require&sslfactory=org.postgresql.ssl.DefaultJavaSSLFactory
+    url: jdbc:postgresql://containers-us-west-33.railway.app:8004/railway
     username: postgres
     password: IdIgpKb166s4EE1eO9mM
   jpa:
