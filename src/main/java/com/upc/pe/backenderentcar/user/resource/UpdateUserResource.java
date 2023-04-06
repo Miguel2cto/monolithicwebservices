@@ -15,13 +15,13 @@ public class UpdateUserResource {
 
     @NotNull
     @NotBlank
-    @Size(max = 10)
+    @Size(max = 30)
     @Column(unique = true)
     private String name;
 
     @NotNull
     @NotBlank
-    @Size(max = 10)
+    @Size(max = 30)
     @Column(unique = true)
     private String lastName;
 
@@ -44,7 +44,7 @@ public class UpdateUserResource {
 
     @NotNull
     @NotBlank
-    @Size(max = 200)
+    @Size(max = 400)
     @Column(unique = true)
     private String imageUrl;
 
