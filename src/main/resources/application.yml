@@ -10,9 +10,9 @@ spring:
       #path: /h2-console
   datasource:
     #driver-class-name: org.h2.Driver
-    url: jdbc:postgresql://containers-us-west-33.railway.app:8004/railway
+    url: jdbc:postgresql://containers-us-west-75.railway.app:5823/railway
     username: postgres
-    password: IdIgpKb166s4EE1eO9mM
+    password: wgMEhOrUhu5TdxmWaxEd
   jpa:
     #database: h2
     hibernate:
