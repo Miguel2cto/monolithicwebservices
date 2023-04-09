@@ -24,13 +24,11 @@ public class User implements Serializable {
     @NotNull
     @NotBlank
     @Size(max = 10)
-    @Column(unique = true)
     private String name;
 
     @NotNull
     @NotBlank
     @Size(max = 10)
-    @Column(unique = true)
     private String lastName;
 
     @NotNull
@@ -41,19 +39,16 @@ public class User implements Serializable {
     @NotNull
     @NotBlank
     @Size(max = 50)
-    @Column(unique = true)
     private String email;
 
     @NotNull
     @NotBlank
     @Size(max = 50)
-    @Column(unique = true)
     private String password;
 
     @NotNull
     @NotBlank
     @Size(max = 200)
-    @Column(unique = true)
     private String imageUrl;
 
 
