@@ -3,7 +3,6 @@ package com.upc.pe.backenderentcar.user.resource;
 import lombok.Getter;
 import lombok.Setter;
 
-import javax.persistence.Column;
 import javax.validation.constraints.NotBlank;
 import javax.validation.constraints.NotNull;
 import javax.validation.constraints.Size;
@@ -16,13 +15,11 @@ public class UpdateUserResource {
     @NotNull
     @NotBlank
     @Size(max = 30)
-    @Column(unique = true)
     private String name;
 
     @NotNull
     @NotBlank
     @Size(max = 30)
-    @Column(unique = true)
     private String lastName;
 
     @NotNull
@@ -33,19 +30,16 @@ public class UpdateUserResource {
     @NotNull
     @NotBlank
     @Size(max = 50)
-    @Column(unique = true)
     private String email;
 
     @NotNull
     @NotBlank
     @Size(max = 50)
-    @Column(unique = true)
     private String password;
 
     @NotNull
     @NotBlank
     @Size(max = 400)
-    @Column(unique = true)
     private String imageUrl;
 
 
